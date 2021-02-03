@@ -17,6 +17,7 @@ namespace EZPragmatik
       static void Main(string[] args)
       {
          AsyncContext.Run(() => MainAsync(args));
+         Console.ReadKey(true);
       }
 
       static async void MainAsync(string[] args)
